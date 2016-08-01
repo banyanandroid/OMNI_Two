@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag23"
+    android:background="@color/white"
+    tools:context="Fragments.Fragment_7">
+
+    <include layout="@layout/preg_back_change"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|bottom">
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="140dp"
+            android:id="@+id/frag23_img1"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/frag23_yimg1"
+            android:layout_marginTop="116dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="80dp" />
+
+        <ImageView
+            android:layout_width="370dp"
+            android:layout_height="150dp"
+            android:id="@+id/frag23_img2"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag23_img1"
+            android:layout_alignLeft="@+id/frag23_img1"
+            android:layout_alignStart="@+id/frag23_img1"
+            android:src="@drawable/frag23_yimg2" />
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="140dp"
+            android:id="@+id/frag23_img3"
+            android:src="@drawable/frag23_gimg1"
+            android:layout_marginLeft="34dp"
+            android:layout_marginStart="34dp"
+            android:layout_above="@+id/frag23_img4"
+            android:layout_toRightOf="@+id/frag23_img1"
+            android:layout_toEndOf="@+id/frag23_img1" />
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="130dp"
+            android:id="@+id/frag23_img4"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/frag23_gimg2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/frag23_img3"
+            android:layout_alignStart="@+id/frag23_img3" />
+
+    </RelativeLayout>
+
+</FrameLayout>

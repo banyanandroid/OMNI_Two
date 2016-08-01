@@ -1,0 +1,97 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag13"
+    android:background="@color/white"
+    tools:context="com.banyan.omni_two.Fragments.Fragment_13">
+
+    <include layout="@layout/preg_back"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Vomiting and Nausea"
+            android:id="@+id/frag39_txt1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="145dp"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="177dp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/frag39_plusimg"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/frag2_imgplus"
+            android:layout_marginLeft="68dp"
+            android:layout_marginStart="68dp"
+            android:layout_below="@+id/frag39_txt1"
+            android:layout_alignLeft="@+id/frag39_txt1"
+            android:layout_alignStart="@+id/frag39_txt1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/frag39_txt2"
+            android:layout_below="@+id/frag39_plusimg"
+            android:layout_alignLeft="@+id/frag39_txt1"
+            android:layout_alignStart="@+id/frag39_txt1"
+            android:src="@drawable/frag2_img3"
+            android:layout_alignRight="@+id/frag39_txt1"
+            android:layout_alignEnd="@+id/frag39_txt1" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Dose"
+            android:padding="5dp"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="3dp"
+            android:background="#ffd378"
+            android:id="@+id/frag39_txtdose"
+            android:layout_below="@+id/frag39_txt2"
+            android:layout_alignLeft="@+id/frag39_plusimg"
+            android:layout_alignStart="@+id/frag39_plusimg" />
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView38"
+            android:src="@drawable/bottel_img"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/frag39_txt1"
+            android:layout_toEndOf="@+id/frag39_txt1"
+            android:layout_marginLeft="163dp"
+            android:layout_marginStart="163dp"
+            android:layout_alignTop="@+id/frag39_txt1" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Mild to moderate: 1 tab daily for 21 days Severe cases: 1 tab twice daily followed by once daily"
+            android:id="@+id/textView34"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/frag39_txtdose"
+            android:layout_alignLeft="@+id/frag39_txtdose"
+            android:layout_alignStart="@+id/frag39_txtdose" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

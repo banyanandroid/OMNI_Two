@@ -1,0 +1,207 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag38"
+    android:background="@color/white"
+    tools:context="com.banyan.omni_two.Fragments.Fragment_13">
+
+    <include layout="@layout/preg_back_change"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ginger and its compound"
+            android:id="@+id/frag38_img"
+            android:textColor="@color/black"
+            android:src="@drawable/frag38_img"
+            android:layout_marginLeft="63dp"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="74dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag37_bul1"
+            android:layout_marginTop="63dp"
+            android:padding="1.5dp"
+            android:layout_marginLeft="60dp"
+            android:layout_below="@+id/frag38_img"
+            android:layout_alignLeft="@+id/frag38_img"
+            android:layout_alignStart="@+id/frag38_img"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Suppresses cIAP1 expression"
+            android:id="@+id/frag42_pt1_txt"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_marginRight="180dp"
+            android:layout_alignTop="@+id/frag37_bul1"
+            android:layout_toRightOf="@+id/frag37_bul1"
+            android:layout_toEndOf="@+id/frag37_bul1" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:padding="1.5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/frag37_bul2"
+            android:layout_below="@+id/frag42_pt1_txt"
+            android:layout_alignLeft="@+id/frag37_bul1"
+            android:layout_alignStart="@+id/frag37_bul1"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Increases caspase-3/7 activation"
+            android:id="@+id/frag42_pt2_txt"
+            android:layout_marginRight="55dp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/frag37_bul2"
+            android:layout_alignLeft="@+id/frag42_pt1_txt"
+            android:layout_alignStart="@+id/frag42_pt1_txt" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag37_bul3"
+            android:padding="1.5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag42_pt2_txt"
+            android:layout_alignLeft="@+id/frag37_bul2"
+            android:layout_alignStart="@+id/frag37_bul2"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Arrests cell cycle in G2 + M phases."
+            android:id="@+id/frag42_pt3_txt"
+            android:textColor="@color/black"
+            android:layout_marginRight="50dp"
+            android:layout_alignTop="@+id/frag37_bul3"
+            android:layout_alignLeft="@+id/frag42_pt2_txt"
+            android:layout_alignStart="@+id/frag42_pt2_txt" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag37_bul4"
+            android:padding="1.5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag42_pt3_txt"
+            android:layout_alignLeft="@+id/frag37_bul3"
+            android:layout_alignStart="@+id/frag37_bul3"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Up-regulates Cytochrome-c, Apaf-1"
+            android:id="@+id/frag38_pt4_txt"
+            android:layout_marginRight="150dp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/frag37_bul4"
+            android:layout_alignLeft="@+id/frag42_pt3_txt"
+            android:layout_alignStart="@+id/frag42_pt3_txt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Molecular targets involved in chemo-prevention like inhibition of NF-κB activation via impairing nuclear translocation:"
+            android:id="@+id/frag38_head_txt"
+            android:layout_marginRight="250dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/frag38_img"
+            android:layout_alignLeft="@+id/frag38_img"
+            android:layout_alignStart="@+id/frag38_img" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag37_bul5"
+            android:padding="1.5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag37_bul4"
+            android:layout_alignLeft="@+id/frag37_bul4"
+            android:layout_alignStart="@+id/frag37_bul4"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Activates PI3K/Akt/I kappaB kinases IKK"
+            android:id="@+id/frag38_pt5_txt"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/frag37_bul5"
+            android:layout_alignLeft="@+id/frag38_pt4_txt"
+            android:layout_alignStart="@+id/frag38_pt4_txt" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag37_bul6"
+            android:padding="1.5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag37_bul5"
+            android:layout_alignLeft="@+id/frag37_bul5"
+            android:layout_alignStart="@+id/frag37_bul5"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Suppresses cell proliferation"
+            android:id="@+id/frag38_pt6_txt"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/frag37_bul6"
+            android:layout_alignLeft="@+id/frag38_pt5_txt"
+            android:layout_alignStart="@+id/frag38_pt5_txt" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag37_bul7"
+            android:padding="1.5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag37_bul6"
+            android:layout_alignLeft="@+id/frag37_bul6"
+            android:layout_alignStart="@+id/frag37_bul6"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Inducts apoptosis and chromatin condensation"
+            android:id="@+id/frag38_pt7_txt"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/frag37_bul7"
+            android:layout_alignLeft="@+id/frag38_pt6_txt"
+            android:layout_alignStart="@+id/frag38_pt6_txt" />
+
+    </RelativeLayout>
+
+</FrameLayout>

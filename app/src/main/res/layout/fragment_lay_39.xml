@@ -1,0 +1,100 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag39"
+    android:background="@color/white"
+    tools:context="com.banyan.omni_two.Fragments.Fragment_13">
+
+    <include layout="@layout/preg_back_change"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Radio protection"
+            android:id="@+id/frag39_txt1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingLeft="0dp"
+            android:layout_marginLeft="94dp"
+            android:layout_marginStart="94dp"
+            android:layout_marginTop="125dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/frag39_plusimg"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/plus_yelimg"
+            android:layout_marginLeft="58dp"
+            android:layout_below="@+id/frag39_txt1"
+            android:layout_alignLeft="@+id/frag39_txt1"
+            android:layout_alignStart="@+id/frag39_txt1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/frag39_txt2"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_below="@+id/frag39_plusimg"
+            android:layout_alignLeft="@+id/frag39_txt1"
+            android:layout_alignStart="@+id/frag39_txt1"
+            android:text="Offers Anti-cancer benefits" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Dose "
+            android:layout_marginLeft="60dp"
+            android:padding="5dp"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:background="#ffd378"
+            android:id="@+id/frag39_txtdose"
+            android:layout_below="@+id/frag39_txt2"
+            android:layout_alignLeft="@+id/frag39_plusimg"
+            android:layout_alignStart="@+id/frag39_plusimg" />
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/frag39_bottelimg"
+            android:src="@drawable/bottel_img"
+            android:layout_marginLeft="154dp"
+            android:layout_marginStart="154dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/frag39_txt2"
+            android:layout_toEndOf="@+id/frag39_txt2"
+            android:layout_alignTop="@+id/frag39_plusimg" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Start 2-days prior to CT and continue, as an adjuvant"
+            android:id="@+id/frag39_txt"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/frag39_txtdose"
+            android:layout_alignLeft="@+id/frag39_txtdose"
+            android:layout_alignStart="@+id/frag39_txtdose" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

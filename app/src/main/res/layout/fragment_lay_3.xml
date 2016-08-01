@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="Fragments.Fragment_3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <include layout="@layout/l_back"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/fag3_omniimg"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="119dp"
+            android:layout_marginStart="119dp"
+            android:layout_marginTop="43dp"
+            android:src="@drawable/omni_img" />
+
+        <TextView
+            android:id="@+id/frag3_txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/fag3_omniimg"
+            android:layout_alignStart="@+id/fag3_omniimg"
+            android:layout_below="@+id/fag3_omniimg"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="10dp"
+            android:text="The First R &amp; D based pure play"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/red"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/frag3_txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frag3_txt1"
+            android:layout_marginLeft="-50dp"
+            android:layout_toEndOf="@+id/fag3_omniimg"
+            android:layout_toRightOf="@+id/fag3_omniimg"
+            android:text="Nutraceutical Company (SJM group)"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/frag3_logoimg"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/frag3_txt2"
+            android:layout_marginEnd="171dp"
+            android:layout_marginRight="171dp"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/frag3_txt2"
+            android:layout_toLeftOf="@+id/frag3_txt2"
+            android:layout_toStartOf="@+id/frag3_txt2"
+            android:src="@drawable/frag3_gingerimg" />
+
+        <TextView
+            android:id="@+id/frag3_logitxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/frag3_logoimg"
+            android:layout_alignStart="@+id/frag3_logoimg"
+            android:layout_below="@+id/frag3_logoimg"
+            android:text="The Multi mode Protector"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/red"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</FrameLayout>

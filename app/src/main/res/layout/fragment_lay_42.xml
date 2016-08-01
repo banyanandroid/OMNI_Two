@@ -1,0 +1,198 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag42"
+    android:background="@color/white"
+    tools:context="com.banyan.omni_two.Fragments.Fragment_13">
+
+    <include layout="@layout/preg_back_change"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag37_bul1"
+            android:layout_marginTop="135dp"
+            android:padding="1.5dp"
+            android:paddingTop="0.25dp"
+            android:layout_marginLeft="177dp"
+            android:src="@drawable/bullet_img"
+            android:layout_marginStart="177dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="RA"
+            android:id="@+id/frag42_pt1_txt"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/frag37_bul1"
+            android:layout_toRightOf="@+id/frag37_bul1"
+            android:layout_toEndOf="@+id/frag37_bul1" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:padding="1.5dp"
+            android:paddingTop="0.25dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/frag37_bul2"
+            android:layout_below="@+id/frag42_pt1_txt"
+            android:layout_alignLeft="@+id/frag37_bul1"
+            android:layout_alignStart="@+id/frag37_bul1"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Lupus diseases"
+            android:id="@+id/frag42_pt2_txt"
+            android:layout_marginRight="55dp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/frag37_bul2"
+            android:layout_alignLeft="@+id/frag42_pt1_txt"
+            android:layout_alignStart="@+id/frag42_pt1_txt" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag37_bul3"
+            android:padding="1.5dp"
+            android:paddingTop="0.25dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/frag42_pt2_txt"
+            android:layout_alignLeft="@+id/frag37_bul2"
+            android:layout_alignStart="@+id/frag37_bul2"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Diabetes"
+            android:id="@+id/frag42_pt3_txt"
+            android:textColor="@color/black"
+            android:layout_marginRight="50dp"
+            android:layout_alignTop="@+id/frag37_bul3"
+            android:layout_alignLeft="@+id/frag42_pt2_txt"
+            android:layout_alignStart="@+id/frag42_pt2_txt" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView54"
+            android:layout_marginTop="8dp"
+            android:padding="1.5dp"
+            android:paddingTop="0.25dp"
+            android:layout_below="@+id/frag42_pt3_txt"
+            android:layout_alignLeft="@+id/frag37_bul3"
+            android:layout_alignStart="@+id/frag37_bul3"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Heart failure"
+            android:id="@+id/frag42_pt4_txt"
+            android:textColor="@color/black"
+            android:layout_marginRight="50dp"
+            android:layout_alignTop="@+id/imageView54"
+            android:layout_alignLeft="@+id/frag42_pt3_txt"
+            android:layout_alignStart="@+id/frag42_pt3_txt" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/bull_img5"
+            android:layout_marginTop="8dp"
+            android:padding="1.5dp"
+            android:paddingTop="0.25dp"
+            android:layout_below="@+id/frag42_pt4_txt"
+            android:layout_alignLeft="@+id/imageView54"
+            android:layout_alignStart="@+id/imageView54"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="IBD-including CD"
+            android:id="@+id/frag42_pt5_txt"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/bull_img5"
+            android:layout_alignLeft="@+id/frag42_pt4_txt"
+            android:layout_alignStart="@+id/frag42_pt4_txt" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/bull_img6"
+            android:layout_marginTop="8dp"
+            android:padding="1.5dp"
+            android:paddingTop="0.25dp"
+            android:layout_below="@+id/frag42_pt5_txt"
+            android:layout_alignLeft="@+id/bull_img5"
+            android:layout_alignStart="@+id/bull_img5"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Kidney diseases and Cancer Dose 1"
+            android:id="@+id/frag42_pt6_txt"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/bull_img6"
+            android:layout_alignLeft="@+id/frag42_pt5_txt"
+            android:layout_alignStart="@+id/frag42_pt5_txt" />
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Dose"
+            android:paddingLeft="10dp"
+            android:id="@+id/frag42_dosetxt"
+            android:background="#ffd378"
+            android:layout_marginTop="39dp"
+            android:layout_below="@+id/frag42_pt6_txt"
+            android:layout_toRightOf="@+id/frag42_pt2_txt"
+            android:layout_toEndOf="@+id/frag42_pt2_txt" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="500dp"
+            android:id="@+id/frag42_bottelimg"
+            android:src="@drawable/bottel_img"
+            android:layout_alignTop="@+id/frag42_pt4_txt"
+            android:layout_toRightOf="@+id/frag42_pt6_txt"
+            android:layout_toEndOf="@+id/frag42_pt6_txt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1 tab daily"
+            android:id="@+id/frag42_txt"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/frag42_dosetxt"
+            android:layout_alignLeft="@+id/frag42_dosetxt"
+            android:layout_alignStart="@+id/frag42_dosetxt" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

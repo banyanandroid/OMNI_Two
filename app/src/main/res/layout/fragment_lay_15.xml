@@ -1,0 +1,219 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag15"
+    android:background="@color/white"
+    tools:context="com.banyan.omni_two.Fragments.Fragment_15">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/preg_back_change"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></include>
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView31"
+            android:src="@drawable/frag15_img"
+            android:layout_marginTop="135dp"
+            android:layout_marginLeft="74dp"
+            android:layout_marginStart="74dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Additionally, Ginger"
+            android:id="@+id/textView23"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:layout_above="@+id/textView24"
+            android:layout_alignLeft="@+id/textView24"
+            android:layout_alignStart="@+id/textView24"
+            android:layout_marginBottom="10dp" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:id="@+id/imageView32"
+            android:layout_marginLeft="20dp"
+            android:padding="2dp"
+            android:layout_marginTop="-10dp"
+            android:src="@drawable/bullet_img"
+            android:layout_toRightOf="@+id/imageView31"
+            android:layout_toEndOf="@+id/imageView31"
+            android:layout_alignTop="@+id/imageView31" />
+
+        <TextView
+            android:layout_width="440dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Reduces complications by prevention of adhesion formation."
+            android:id="@+id/textView24"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView32"
+            android:layout_toRightOf="@+id/imageView32" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:id="@+id/imageView33"
+            android:layout_marginTop="10dp"
+            android:padding="2dp"
+            android:layout_below="@+id/textView24"
+            android:layout_alignLeft="@+id/imageView32"
+            android:layout_alignStart="@+id/imageView32"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Blocks The influx of neutrophils through its anti-inflammatory responses"
+            android:id="@+id/textView25"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView33"
+            android:layout_alignLeft="@+id/textView24"
+            android:layout_alignStart="@+id/textView24"
+            android:layout_alignRight="@+id/textView24"
+            android:layout_alignEnd="@+id/textView24" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:id="@+id/imageView34"
+            android:layout_marginTop="10dp"
+            android:padding="2dp"
+            android:layout_below="@+id/textView25"
+            android:layout_alignLeft="@+id/imageView33"
+            android:layout_alignStart="@+id/imageView33"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Scavenge free radicals through effective anti-oxidant action"
+            android:id="@+id/textView26"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView34"
+            android:layout_alignLeft="@+id/textView25"
+            android:layout_alignStart="@+id/textView25" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ideal choice for peri-surgical use:"
+            android:id="@+id/textView27"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView26"
+            android:layout_alignLeft="@+id/textView26"
+            android:layout_alignStart="@+id/textView26" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:id="@+id/imageView35"
+            android:layout_marginTop="10dp"
+            android:padding="2dp"
+            android:layout_below="@+id/textView27"
+            android:layout_alignLeft="@+id/imageView34"
+            android:layout_alignStart="@+id/imageView34"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Prevents PO nausea/vomiting"
+            android:id="@+id/textView28"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView35"
+            android:layout_alignLeft="@+id/textView27"
+            android:layout_alignStart="@+id/textView27" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:id="@+id/imageView36"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:layout_below="@+id/textView28"
+            android:layout_alignLeft="@+id/imageView35"
+            android:layout_alignStart="@+id/imageView35"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Prevents complications"
+            android:id="@+id/textView29"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView36"
+            android:layout_alignLeft="@+id/textView28"
+            android:layout_alignStart="@+id/textView28"
+            android:layout_alignRight="@+id/textView28"
+            android:layout_alignEnd="@+id/textView28" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:id="@+id/imageView37"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:layout_below="@+id/textView29"
+            android:layout_alignLeft="@+id/imageView36"
+            android:layout_alignStart="@+id/imageView36"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Prevents Post-Operative adhesion and facilitates healing"
+            android:id="@+id/textView30"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView37"
+            android:layout_alignLeft="@+id/textView29"
+            android:layout_alignStart="@+id/textView29" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Dosage -"
+            android:textColor="@color/red"
+            android:id="@+id/textView31"
+            android:layout_alignTop="@+id/textView32"
+            android:layout_toLeftOf="@+id/textView32" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="1 tab for 3 days prior to surgery, along with Ondasetron, followed by 1 tab daily for 1 week"
+            android:id="@+id/textView32"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/imageView37"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

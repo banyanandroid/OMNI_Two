@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag30"
+    android:background="@color/white"
+    tools:context="com.banyan.omni_two.Fragments.Fragment_13">
+
+    <include layout="@layout/preg_back_change"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center_vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Impacts across the entire spectrum"
+            android:id="@+id/textView20"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_above="@+id/imageView29"
+            android:layout_alignLeft="@+id/imageView29"
+            android:layout_alignStart="@+id/imageView29"
+            android:layout_marginLeft="87dp"
+            android:layout_marginStart="87dp"
+            android:layout_marginBottom="50dp" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageView29"
+            android:src="@drawable/frag30_img1"
+            android:layout_marginRight="48dp"
+            android:layout_marginEnd="48dp"
+            android:layout_above="@+id/imageView49"
+            android:layout_toLeftOf="@+id/imageView47"
+            android:layout_toStartOf="@+id/imageView47" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageView47"
+            android:src="@drawable/frag30_img2"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/imageView50"
+            android:layout_alignStart="@+id/imageView50" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageView48"
+            android:src="@drawable/frag30_img3"
+            android:layout_alignTop="@+id/imageView47"
+            android:layout_toRightOf="@+id/textView20"
+            android:layout_toEndOf="@+id/textView20" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView49"
+            android:layout_marginTop="34dp"
+            android:src="@drawable/plus_yelimg"
+            android:layout_below="@+id/imageView47"
+            android:layout_alignRight="@+id/imageView50"
+            android:layout_alignEnd="@+id/imageView50"
+            android:layout_marginRight="62dp"
+            android:layout_marginEnd="62dp" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageView50"
+            android:src="@drawable/frag30_img4"
+            android:layout_marginLeft="344dp"
+            android:layout_marginStart="344dp"
+            android:layout_below="@+id/imageView49"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

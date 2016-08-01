@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag24"
+    android:background="@color/white"
+    tools:context="Fragments.Fragment_7">
+
+    <include layout="@layout/preg_back_change"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+
+        <ImageView
+            android:layout_width="700dp"
+            android:layout_height="240dp"
+            android:id="@+id/imageView45"
+            android:src="@drawable/frag24_img"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginStart="75dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Possible mechanisms related to the glucose-lowering effect of ginger"
+            android:id="@+id/textView38"
+            android:textColor="@color/red"
+            android:layout_above="@+id/imageView45"
+            android:layout_alignLeft="@+id/imageView45"
+            android:layout_alignStart="@+id/imageView45" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Protective effects of ginger on diabetic complications"
+            android:id="@+id/textView39"
+            android:textColor="@color/red"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_alignTop="@+id/textView38"
+            android:layout_toRightOf="@+id/textView38"
+            android:layout_toEndOf="@+id/textView38" />
+
+    </RelativeLayout>
+
+</FrameLayout>

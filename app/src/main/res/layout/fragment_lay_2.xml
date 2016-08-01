@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/frag2"
+    tools:context="Fragments.Fragment_2">
+
+    <include layout="@layout/l_back">
+    </include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Presenting the Multi mode Protector that controls"
+        android:id="@+id/frag36_head"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:id="@+id/frag18_img1"
+        android:layout_gravity="center"
+        android:src="@drawable/frag2_img1"
+        android:layout_below="@+id/frag36_head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/frag18_plusimg"
+            android:layout_below="@+id/frag18_img1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:src="@drawable/frag2_imgplus" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView6"
+            android:layout_below="@+id/frag18_plusimg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:src="@drawable/frag2_img3" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/imageView7"
+            android:src="@drawable/frag2_flowerimg"
+            android:layout_alignTop="@+id/imageView6"
+            android:layout_toLeftOf="@+id/imageView6"
+            android:layout_toStartOf="@+id/imageView6" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

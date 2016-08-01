@@ -1,0 +1,163 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag10"
+    android:background="@color/white"
+    tools:context="Fragments.Fragment_9">
+
+    <include layout="@layout/preg_back_change"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Effective antiemetic"
+            android:id="@+id/frag10_h1"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/red"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="142dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Effective agent to prevent Nausea"
+            android:id="@+id/frag10_h2"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_alignTop="@+id/frag10_h1"
+            android:layout_toRightOf="@+id/frag10_h1"
+            android:layout_toEndOf="@+id/frag10_h1"
+            android:layout_marginLeft="59dp"
+            android:layout_marginStart="59dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag10_b1"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/frag10_h1"
+            android:layout_alignLeft="@+id/frag10_h1"
+            android:layout_alignStart="@+id/frag10_h1"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Inhibits serotonin receptors"
+            android:id="@+id/frag10_pt1"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/frag10_b1"
+            android:layout_toRightOf="@+id/frag10_b1"
+            android:layout_toEndOf="@+id/frag10_b1" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag10_b2"
+            android:layout_below="@+id/frag10_pt1"
+            android:layout_alignLeft="@+id/frag10_b1"
+            android:layout_alignStart="@+id/frag10_b1"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Acts directly on the GI system and CNS"
+            android:id="@+id/frag10_pt2"
+            android:textSize="25sp"
+            android:layout_alignTop="@+id/frag10_b2"
+            android:layout_alignLeft="@+id/frag10_pt1"
+            android:layout_alignStart="@+id/frag10_pt1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Gingerol in Ginger regulates Nausea through"
+            android:id="@+id/frag10_pt"
+            android:textSize="25sp"
+            android:layout_marginLeft="-5dp"
+            android:layout_alignBaseline="@+id/frag10_pt1"
+            android:layout_alignBottom="@+id/frag10_pt1"
+            android:layout_alignLeft="@+id/frag10_h2"
+            android:layout_alignStart="@+id/frag10_h2"
+            android:layout_alignRight="@+id/frag10_h2"
+            android:layout_alignEnd="@+id/frag10_h2" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag10_b3"
+            android:layout_marginLeft="5dp"
+            android:layout_alignLeft="@+id/frag10_pt"
+            android:layout_alignStart="@+id/frag10_pt"
+            android:src="@drawable/bullet_img"
+            android:layout_alignBottom="@+id/frag10_b2"
+            android:layout_alignTop="@+id/frag10_pt2" />
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="M3 receptors-responsible for muscle contraction for vomiting"
+            android:id="@+id/frag10_pt3"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/frag10_b3"
+            android:layout_toRightOf="@+id/frag10_b3"
+            android:layout_toEndOf="@+id/frag10_b3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView20"
+            android:layout_below="@+id/frag10_pt3"
+            android:layout_alignLeft="@+id/frag10_b3"
+            android:layout_alignStart="@+id/frag10_b3" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag10_b4"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/frag10_pt2"
+            android:layout_alignLeft="@+id/imageView20"
+            android:layout_alignStart="@+id/imageView20"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Inhibiting serotonin receptors"
+            android:id="@+id/frag10_pt4"
+            android:textSize="25sp"
+            android:layout_alignTop="@+id/frag10_b4"
+            android:layout_alignLeft="@+id/frag10_pt3"
+            android:layout_alignStart="@+id/frag10_pt3" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,109 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag33"
+    android:background="@color/white"
+    tools:context="com.banyan.omni_two.Fragments.Fragment_13">
+
+    <include layout="@layout/preg_back_change"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ginger and its compound"
+            android:id="@+id/frag38_img"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="71dp"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="171dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag37_bul1"
+            android:paddingTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bullet_img"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/frag38_img"
+            android:layout_alignStart="@+id/frag38_img"
+            android:layout_marginTop="130dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Suppresses tumor grow and induce apoptosis across variety of cancer, including skin, ovarian, colon, breast, cervical, oral, renal, prostate, gastric, pancreatic, liver, and brain cancer"
+            android:id="@+id/frag42_pt1_txt"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_marginRight="270dp"
+            android:textSize="26dp"
+            android:layout_alignTop="@+id/frag37_bul1"
+            android:layout_toRightOf="@+id/frag37_bul1"
+            android:layout_toEndOf="@+id/frag37_bul1" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:paddingTop="3dp"
+            android:layout_marginTop="18dp"
+            android:id="@+id/frag37_bul2"
+            android:layout_below="@+id/frag42_pt1_txt"
+            android:layout_alignLeft="@+id/frag37_bul1"
+            android:layout_alignStart="@+id/frag37_bul1"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ameliorating the side effects of γ-radiation and of doxorubicin and cisplatin"
+            android:id="@+id/frag42_pt2_txt"
+            android:layout_marginRight="165dp"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:layout_alignTop="@+id/frag37_bul2"
+            android:layout_alignLeft="@+id/frag42_pt1_txt"
+            android:layout_alignStart="@+id/frag42_pt1_txt" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag37_bul3"
+            android:paddingTop="3dp"
+            android:layout_marginTop="18dp"
+            android:layout_below="@+id/frag42_pt2_txt"
+            android:layout_alignLeft="@+id/frag37_bul2"
+            android:layout_alignStart="@+id/frag37_bul2"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Inhibit the efflux of anticancer drugs by P-glycoprotein (P-gp) and to possess chemosensitizing effects."
+            android:id="@+id/frag42_pt3_txt"
+            android:textColor="@color/black"
+            android:layout_marginRight="100dp"
+            android:textSize="26dp"
+            android:layout_alignTop="@+id/frag37_bul3"
+            android:layout_alignLeft="@+id/frag42_pt2_txt"
+            android:layout_alignStart="@+id/frag42_pt2_txt" />
+
+    </RelativeLayout>
+
+</FrameLayout>

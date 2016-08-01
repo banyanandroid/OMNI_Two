@@ -1,0 +1,167 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag7"
+    android:background="@color/white"
+    tools:context="Fragments.Fragment_7">
+
+    <include layout="@layout/preg_back_change"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical">
+
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView9"
+            android:layout_marginLeft="103dp"
+            android:layout_marginStart="103dp"
+            android:src="@drawable/bullet_img"
+            android:layout_marginTop="116dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Superior"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/frag7_hpt1"
+            android:layout_alignBottom="@+id/imageView9"
+            android:layout_toRightOf="@+id/imageView9"
+            android:layout_toEndOf="@+id/imageView9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Optimum therapeutic dose for controlling emesis and nausea"
+            android:id="@+id/frag7_pt1"
+            android:textSize="25sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="250dp"
+            android:layout_below="@+id/frag7_hpt1"
+            android:layout_alignLeft="@+id/frag7_hpt1"
+            android:layout_alignStart="@+id/frag7_hpt1" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView10"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/bullet_img"
+            android:layout_below="@+id/frag7_pt1"
+            android:layout_alignLeft="@+id/imageView9"
+            android:layout_alignStart="@+id/imageView9" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sure"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/frag7_hpt2"
+            android:layout_alignTop="@+id/imageView10"
+            android:layout_alignLeft="@+id/frag7_pt1"
+            android:layout_alignStart="@+id/frag7_pt1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Highly bioavailable form ginger, unlike regular ginger powder/extracts, which are poorly absorbed"
+            android:id="@+id/farg7_pt2"
+            android:textSize="25sp"
+            android:layout_below="@+id/frag7_hpt2"
+            android:layout_alignLeft="@+id/frag7_hpt2"
+            android:layout_alignStart="@+id/frag7_hpt2"
+            android:layout_alignRight="@+id/frag7_pt1"
+            android:layout_alignEnd="@+id/frag7_pt1" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView11"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/bullet_img"
+            android:layout_below="@+id/farg7_pt2"
+            android:layout_alignLeft="@+id/imageView10"
+            android:layout_alignStart="@+id/imageView10"
+            android:layout_toLeftOf="@+id/frag7_hpt1"
+            android:layout_toStartOf="@+id/frag7_hpt1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Safe"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/frag7_hpt3"
+            android:layout_alignTop="@+id/imageView11"
+            android:layout_alignLeft="@+id/farg7_pt2"
+            android:layout_alignStart="@+id/farg7_pt2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Efficacy established through multiple RCT"
+            android:id="@+id/frag7_link3"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag7_hpt3"
+            android:layout_alignLeft="@+id/frag7_hpt3"
+            android:layout_alignStart="@+id/frag7_hpt3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Deemed safe"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/frag7_link2"
+            android:layout_below="@+id/frag7_link3"
+            android:layout_alignLeft="@+id/frag7_link3"
+            android:layout_alignStart="@+id/frag7_link3" />
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="32dp"
+            android:id="@+id/frag8_redimg"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-4dp"
+            android:clickable="true"
+            android:src="@drawable/lay7_linkimg"
+            android:layout_alignTop="@+id/frag7_link3"
+            android:layout_toRightOf="@+id/frag7_link3"
+            android:layout_toEndOf="@+id/frag7_link3" />
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="32dp"
+            android:id="@+id/frag9_redimg"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-4dp"
+            android:clickable="true"
+            android:src="@drawable/lay7_linkimg"
+            android:layout_alignTop="@+id/frag7_link2"
+            android:layout_toRightOf="@+id/frag7_link2"
+            android:layout_toEndOf="@+id/frag7_link2" />
+
+    </RelativeLayout>
+
+</FrameLayout>

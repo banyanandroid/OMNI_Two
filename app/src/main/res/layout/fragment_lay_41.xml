@@ -1,0 +1,143 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag41"
+    android:background="@color/white"
+    tools:context="com.banyan.omni_two.Fragments.Fragment_13">
+
+    <include layout="@layout/preg_back_change"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical">
+
+
+        <TextView
+            android:layout_width="680dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="NF - kB is pleiotropic transcription factor responsible for chronic inflammation. 6 Gingerol and 6-paradol in Ginger possess stronginflammatory activity and to suppress TNF alpha &amp; NF kB."
+            android:id="@+id/frag38_img"
+            android:textColor="@color/black"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="89dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="48dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag37_bul1"
+            android:layout_marginTop="100dp"
+            android:padding="1.5dp"
+            android:paddingTop="0.25dp"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/frag38_img"
+            android:layout_alignLeft="@+id/frag38_img"
+            android:layout_alignStart="@+id/frag38_img"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Decrease in CRP"
+            android:id="@+id/frag42_pt1_txt"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/frag37_bul1"
+            android:layout_toRightOf="@+id/frag37_bul1"
+            android:layout_toEndOf="@+id/frag37_bul1" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:padding="1.5dp"
+            android:paddingTop="0.25dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/frag37_bul2"
+            android:layout_below="@+id/frag42_pt1_txt"
+            android:layout_alignLeft="@+id/frag37_bul1"
+            android:layout_alignStart="@+id/frag37_bul1"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Increase in Ferritin"
+            android:id="@+id/frag42_pt2_txt"
+            android:layout_marginRight="55dp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/frag37_bul2"
+            android:layout_alignLeft="@+id/frag42_pt1_txt"
+            android:layout_alignStart="@+id/frag42_pt1_txt" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/frag37_bul3"
+            android:padding="1.5dp"
+            android:paddingTop="0.25dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/frag42_pt2_txt"
+            android:layout_alignLeft="@+id/frag37_bul2"
+            android:layout_alignStart="@+id/frag37_bul2"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Increased iron binding capacity"
+            android:id="@+id/frag42_pt3_txt"
+            android:textColor="@color/black"
+            android:layout_marginRight="50dp"
+            android:layout_alignTop="@+id/frag37_bul3"
+            android:layout_alignLeft="@+id/frag42_pt2_txt"
+            android:layout_alignStart="@+id/frag42_pt2_txt" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView54"
+            android:layout_marginTop="8dp"
+            android:padding="1.5dp"
+            android:paddingTop="0.25dp"
+            android:layout_below="@+id/frag42_pt3_txt"
+            android:layout_alignLeft="@+id/frag37_bul3"
+            android:layout_alignStart="@+id/frag37_bul3"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ginger also increases absorbption iron"
+            android:id="@+id/frag42_pt4_txt"
+            android:textColor="@color/black"
+            android:layout_marginRight="50dp"
+            android:layout_alignTop="@+id/imageView54"
+            android:layout_alignLeft="@+id/frag42_pt3_txt"
+            android:layout_alignStart="@+id/frag42_pt3_txt" />
+
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Treatment with anti-TB and Ginger provided more beneficial effects than ATT in terms;"
+            android:id="@+id/textView40"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="200dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/frag38_img"
+            android:layout_alignLeft="@+id/frag38_img"
+            android:layout_alignStart="@+id/frag38_img" />
+
+    </RelativeLayout>
+
+</FrameLayout>

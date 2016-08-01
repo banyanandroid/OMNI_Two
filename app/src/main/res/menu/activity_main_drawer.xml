@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_preg"
+            android:icon="@drawable/pragnency"
+            android:title="Pregnancy" />
+        <item
+            android:id="@+id/nav_diab"
+            android:icon="@drawable/diabets"
+            android:title="Diabetes" />
+        <item
+            android:id="@+id/nav_cancer"
+            android:icon="@drawable/canc"
+            android:title="Cancer" />
+        <item
+            android:id="@+id/nav_rp"
+            android:icon="@drawable/rp"
+            android:title="Radio Protection" />
+
+        <item
+            android:id="@+id/nav_ai"
+            android:icon="@drawable/ai"
+            android:title="Anti Inflamation" />
+    </group>
+
+
+</menu>

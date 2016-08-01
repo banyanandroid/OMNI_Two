@@ -1,0 +1,112 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag22"
+    android:background="@color/white"
+    tools:context="Fragments.Fragment_7">
+
+    <include layout="@layout/preg_back_change"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Safe"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="122dp"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="147dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView4"
+            android:layout_below="@+id/textView2"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_marginTop="31dp"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="US FDA GRAS certified"
+            android:id="@+id/textView35"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_alignTop="@+id/imageView4"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            android:id="@+id/imageView5"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:src="@drawable/frag9_img3"
+            android:layout_below="@+id/textView2"
+            android:layout_toRightOf="@+id/textView35"
+            android:layout_toEndOf="@+id/textView35" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView39"
+            android:layout_below="@+id/imageView5"
+            android:layout_alignLeft="@+id/imageView4"
+            android:layout_alignStart="@+id/imageView4"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Used as a food for the last so many years"
+            android:id="@+id/textView36"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_alignTop="@+id/imageView39"
+            android:layout_alignLeft="@+id/textView35"
+            android:layout_alignStart="@+id/textView35" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView40"
+            android:layout_below="@+id/textView36"
+            android:layout_alignLeft="@+id/imageView39"
+            android:layout_alignStart="@+id/imageView39"
+            android:layout_marginTop="31dp"
+            android:src="@drawable/bullet_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Completely free of impurities/chemicals/microbes"
+            android:id="@+id/textView37"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_alignTop="@+id/imageView40"
+            android:layout_alignLeft="@+id/textView36"
+            android:layout_alignStart="@+id/textView36" />
+
+    </RelativeLayout>
+
+</FrameLayout>

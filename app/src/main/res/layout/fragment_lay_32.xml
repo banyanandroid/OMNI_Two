@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag32"
+    android:background="@color/white"
+    tools:context="com.banyan.omni_two.Fragments.Fragment_13">
+
+    <include layout="@layout/preg_back_change"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="600dp"
+            android:layout_height="350dp"
+            android:id="@+id/frag32_img"
+            android:src="@drawable/frag32_img"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="115dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginBottom="87dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Improved treatment outcome in CT induced Nausea "
+            android:id="@+id/frag32_txt1"
+            android:layout_marginRight="115dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="53dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/frag32_img"
+            android:layout_alignEnd="@+id/frag32_img"
+            android:layout_marginEnd="115dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="“Despite widespread use of antiemetics, nausea contributes to be reported by over 70% of patients receiving CT”"
+            android:id="@+id/frag32_txt2"
+            android:layout_marginBottom="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/frag32_img"
+            android:layout_alignStart="@+id/frag32_img"
+            android:layout_marginLeft="-10dp"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

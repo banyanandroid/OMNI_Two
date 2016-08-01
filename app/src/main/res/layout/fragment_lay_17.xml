@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag17"
+    android:background="@color/white"
+    tools:context="Fragments.Fragment_17">
+
+    <include layout="@layout/l_back"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="In managing insulin resistance,
+options are plenty"
+            android:gravity="center"
+            android:id="@+id/frag1_txt1"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:id="@+id/imageView3"
+            android:layout_gravity="center"
+            android:src="@drawable/frag17_img" />
+
+    </LinearLayout>
+
+</FrameLayout>
